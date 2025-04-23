@@ -73,7 +73,7 @@ export default function AboutPage() {
                 <h3 className="text-lg font-medium text-center">Team Member {member}</h3>
                 <p className="text-muted-foreground text-center">Position</p>
                 <p className="mt-4 text-sm">
-                  Brief description about the team member's experience and role in the company.
+                  Brief description about the team member's experience and role in the company. ballian
                 </p>
               </div>
             ))}
