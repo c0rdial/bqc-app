@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 export const Hero = () => {
   const [titleNumber, setTitleNumber] = useState(0);
   const titles = useMemo(
-    () => ["amazing", "new", "wonderful", "beautiful", "smart"],
+    () => ["moden", "berkualiti", "cekap", "dipercayai", "mesra petani"],
     []
   );
 
@@ -36,7 +36,7 @@ export const Hero = () => {
           </div>
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
-              <span className="text-spektr-cyan-50">This is something</span>
+              <span className="text-spektr-cyan-50">BQC Sdn Bhd</span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
                 {titles.map((title, index) => (
@@ -64,18 +64,18 @@ export const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
+            Mengurus perniagaan ternakan dan pertanian kini sudah cukup mencabar. 
+            Elakkan proses lama yang leceh dan lambat. 
+            Matlamat kami adalah untuk memudahkan urusan anda — 
+            dari ladang hingga ke pintu, dengan lebih pantas dan lebih efisien.
             </p>
           </div>
           <div className="flex flex-row gap-3">
             <Button size="lg" className="gap-4" variant="outline">
-              Jump on a call <PhoneCall className="w-4 h-4" />
+             Hubungi Sekarang <PhoneCall className="w-4 h-4" />
             </Button>
             <Button size="lg" className="gap-4">
-              Sign up here <MoveRight className="w-4 h-4" />
+             Matlumat Lanjut<MoveRight className="w-4 h-4" />
             </Button>
           </div>
         </div>

@@ -22,7 +22,7 @@ const navigationItems = [
     },
     {
     title: "Product",
-    description: "Managing a small business today is already tough.",
+    description: "Kami menyediakan penyelesaian untuk keperluan pertanian anda.",
     items: [
         {
         title: "Reports",
@@ -42,28 +42,24 @@ const navigationItems = [
         },
     ],
     },
-    // {
-    // title: "Company",
-    // description: "Managing a small business today is already tough.",
-    // items: [
-    //     {
-    //     title: "About us",
-    //     href: "/about",
-    //     },
-    //     {
-    //     title: "Fundraising",
-    //     href: "/fundraising",
-    //     },
-    //     {
-    //     title: "Investors",
-    //     href: "/investors",
-    //     },
-    //     {
-    //     title: "Contact us",
-    //     href: "/contact",
-    //     },
-    // ],
-    // },
+    {
+    title: "Company",
+    description: "Kami menyediakan penyelesaian untuk keperluan pertanian anda.",
+    items: [
+        {
+        title: "About us",
+        href: "/about",
+        },
+        {
+        title: "Fundraising",
+        href: "/fundraising",
+        },
+        {
+        title: "Contact us",
+        href: "/contact",
+        }
+    ],
+    },
 ];
 
 const [isOpen, setOpen] = useState(false);
